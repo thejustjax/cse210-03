@@ -51,9 +51,7 @@ namespace unit03_jumper
             }
         }
 
-        /// <summary>
-        /// Moves the seeker to a new location.
-        /// </summary>
+
         private void StartUp()
         {
             Console.WriteLine("\nHint: The Book of Mormon");
