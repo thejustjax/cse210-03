@@ -56,10 +56,10 @@ namespace unit03_jumper
         /// </summary>
         private void StartUp()
         {
+            Console.WriteLine("\nHint: The Book of Mormon");
             chosenWord = hiddenWord.pullWord();
             hiddenWord.listWord(chosenWord);
             hiddenWord.createHiddenWord();
-            Console.WriteLine("\n");
             hiddenWord.printGuess();
         }
         private void GetInputs()
